@@ -1,0 +1,268 @@
+@media only screen and (max-width : 640px) {
+    #heading-menu-div {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+
+    }
+    #menu-mapped-div {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        margin: 5px 0px;
+    }
+    #menu-mapped-img-div {
+        justify-items: center;
+        display: flex;
+        padding: 10px;
+        align-content: center;
+        justify-content: center;
+    }
+    #menu-mapped-img-div img {
+        margin-left: auto;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        padding: 5px;
+        margin-right: auto;
+        width: 90%;
+        height: 120px;
+    }
+    #menu-mapped-content-div {
+        display: grid;
+        position: relative;
+        justify-content: left;
+        text-align: center;
+        grid-gap: 5px;
+        color: rgb(241 245 249);
+        
+        background-color: rgb(217 119 6);
+        padding: 0px 3px;
+        margin: 0px 0px;
+        
+    }
+    #menu-mapped-img-div img:hover, img:focus {
+        padding: 0px;
+    }
+    #choice-menu-div {
+        border:  1px solid black;
+        padding: 5px;
+        border-radius: 2px;
+        width: 70%;
+        margin: 10px 2px;
+        font-weight: 450;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 15px;
+    }
+    #heading-menu-div big {
+        font-size: x-large;
+        font-weight: 600;
+    }
+    #choice-menu-div button {
+        border: 1px solid transparent;
+        background-color: transparent;
+        text-align: center;
+        padding: 3px;
+        min-width: 80px;
+        border-radius: 2px;
+    }
+    #choice-menu-div button:focus, button:hover {
+        background-color: chocolate;
+        font-weight: normal;
+        font-size:medium;
+    }
+    #owning-menu-div {
+        min-height: 480px;
+    }
+}
+@media only screen and (min-width : 640px) {
+    #heading-menu-div {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+
+    }
+    #menu-mapped-div {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        margin: 15px 50px;
+    }
+    #menu-mapped-img-div {
+        justify-items: center;
+        display: flex;
+        padding: 10px;
+        align-content: center;
+        justify-content: center;
+    }
+    #menu-mapped-img-div img {
+        margin-left: auto;
+        
+        margin-top: 0px;
+        margin-bottom: 15px;
+        padding: 5px;
+        margin-right: auto;
+        width: fit-content;
+        min-width: 300px;
+        height: 120px;
+    }
+    #menu-mapped-content-div {
+        display: grid;
+        position: relative;
+        justify-content: left;
+        text-align: center;
+        grid-gap: 5px;
+        font-size: large;
+        color: rgb(241 245 249);
+        
+        background-color: rgb(217 119 6);
+        padding: 0px 3px;
+        margin: 0px 0px;
+        
+    }
+    #menu-mapped-img-div img:hover, img:focus {
+        padding: 0px;
+    }
+    #choice-menu-div {
+        border:  1px solid black;
+        padding: 5px;
+        border-radius: 2px;
+        width: 70%;
+        margin: 10px 2px;
+        font-weight: 450;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 15px;
+    }
+    #heading-menu-div big {
+        font-size:xx-large;
+        font-weight: 600;
+    }
+    #choice-menu-div button {
+        border: 1px solid transparent;
+        background-color: transparent;
+        text-align: center;
+        padding: 3px;
+        min-width: 80px;
+        border-radius: 2px;
+    }
+    #choice-menu-div button:focus, button:hover {
+        background-color: chocolate;
+        font-weight: normal;
+        font-size:medium;
+    }
+    #owning-menu-div {
+        min-height: 480px;
+    }
+}
+@media only screen and (min-width : 780px) {
+    #heading-menu-div {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+
+    }
+    #menu-mapped-div {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+        border: 1px solid black;
+        
+    }
+    #menu-mapped-img-div {
+        justify-items: center;
+        display: flex;
+        padding: 10px;
+        align-content: center;
+        justify-content: center;
+    }
+    #menu-mapped-img-div img {
+        margin-left: auto;
+        
+        margin-top: 0px;
+        margin-bottom: 15px;
+        padding: 5px;
+        margin-right: auto;
+        width: fit-content;
+        min-width: 300px;
+        height: 120px;
+    }
+    #menu-mapped-content-div {
+        display: grid;
+        position: relative;
+        justify-content: left;
+        text-align: center;
+        grid-gap: 5px;
+        font-size: large;
+        color: rgb(241 245 249);
+        
+        background-color: rgb(217 119 6);
+        padding: 0px 3px;
+        margin: 0px 0px;
+        
+    }
+    #menu-mapped-img-div img:hover, img:focus {
+        padding: 0px;
+    }
+    #choice-menu-div {
+        border:  1px solid black;
+        padding: 5px;
+        border-radius: 2px;
+        width: 70%;
+        margin: 10px 2px;
+        font-weight: 450;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 15px;
+    }
+    #heading-menu-div big {
+        font-size:xx-large;
+        font-weight: 600;
+    }
+    #choice-menu-div button {
+        border: 1px solid transparent;
+        background-color: transparent;
+        text-align: center;
+        padding: 3px;
+        min-width: 80px;
+        border-radius: 2px;
+    }
+    #choice-menu-div button:focus, button:hover {
+        background-color: chocolate;
+        font-weight: normal;
+        font-size:medium;
+    }
+    #owning-menu-div {
+        min-height: 480px;
+    }
+    #content-menu-div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0px;
+        align-items: center;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

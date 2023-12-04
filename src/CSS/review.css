@@ -1,0 +1,142 @@
+@media only screen and (max-width : 640px) {
+    #carousel-div {
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+       text-align: center;
+    }
+    #icon {
+        min-width: 60px;
+    }
+    #carousel-display-div {
+        display: flex;
+        flex-direction: row;
+        white-space: nowrap;
+        overflow: auto;
+        gap: 2px;
+        
+    }
+    #carousel-display-div{
+        transition: transform 0.5s ease-in-out;
+        width: fit-content;
+    }
+    #mapped-review-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 300px;
+        max-width: 305px;
+       align-items: center;
+       align-content: center;
+       text-align: center;
+       justify-content: center;
+        position: relative;
+        overflow: hidden;
+        min-height: 300px;
+        
+        font-family: 'Times New Roman', Times, serif;
+        
+        text-align: left;
+        margin: 5px 2px;
+        border-radius: 5px;
+        border: 1px solid chocolate;
+    }
+    #mapped-review-div big {
+        font-size: 30px;
+    }
+    #mapped-review-div span {
+        font-size: large;
+    }
+    #mapped-review-div textarea {
+        text-align: center;
+        min-width: 290px;
+        justify-content: center;
+        min-height: 100px;
+
+    }
+    #heading-review-div {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #heading-review-div big {
+        
+        font-size: 30px;
+    }
+    #heading-review-div span {
+        text-align: center;
+    }
+}
+@media only screen and (min-width : 640px) {
+    #carousel-div {
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+       text-align: center;
+    }
+    #icon {
+        min-width: 60px;
+    }
+    #carousel-display-div {
+        display: flex;
+        flex-direction: row;
+        white-space: nowrap;
+        overflow: auto;
+        gap: 2px;
+        
+    }
+    #carousel-display-div{
+        transition: transform 0.5s ease-in-out;
+        width: fit-content;
+    }
+    #mapped-review-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 300px;
+        max-width: 305px;
+       align-items: center;
+       align-content: center;
+       text-align: center;
+       justify-content: center;
+        position: relative;
+        overflow: hidden;
+        min-height: 300px;
+        
+        font-family: 'Times New Roman', Times, serif;
+        
+        text-align: left;
+        margin: 5px 2px;
+        border-radius: 5px;
+        border: 1px solid chocolate;
+    }
+    #mapped-review-div big {
+        font-size: 40px;
+    }
+    #mapped-review-div span {
+        font-size: x-large;
+    }
+    #mapped-review-div textarea {
+        text-align: center;
+        min-width: 290px;
+        font-size: 18px;
+        justify-content: center;
+        min-height: 100px;
+
+    }
+    #heading-review-div {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #heading-review-div big {
+        
+        font-size: 40px;
+    }
+    #heading-review-div span {
+        text-align: center;
+        font-size: 25px;
+    }
+}
